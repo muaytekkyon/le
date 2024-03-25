@@ -1,4 +1,4 @@
-
+//program must be ran in terminal, as VScode does not support console cursor being moved
 const EventEmitter = require('events');
 class DayEmitter extends EventEmitter {
     constructor(update_time = 300) {
